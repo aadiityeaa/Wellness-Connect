@@ -1,0 +1,53 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f4f7fb;
+  background-image: url('../images/BGT7.jpg');   
+  background-size: repeat;
+  background-position: auto;
+  background-repeat: top left;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+
+#announcements-container {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+.announcement {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: #004a75;
+  margin-bottom: 30px;
+}
+
+.announcement h2 {
+  margin: 0 0 10px;
+  color: #004a75;
+}
+
+.announcement p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  margin: 0;
+}

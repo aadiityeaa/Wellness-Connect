@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+   body {
+    background-image: url('../images/BGT7.jpg');   
+    background-size: repeat;
+    background-position: auto;
+    background-repeat: top left;
+}  
+
+  /* Centers content below header */
+  .page-content {
+    min-height: calc(100vh - 80px); /* adjust for header height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .login-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Login Container */
+  .login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #2575fc;
+  }
+  
+  .input-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .input-group input:focus {
+    border-color: #2575fc;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2575fc;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-btn:hover {
+    background: #1a5bbf;
+    transform: scale(1.05);
+  }
+  
+  .register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .register-link a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
