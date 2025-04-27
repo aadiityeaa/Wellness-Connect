@@ -1,0 +1,101 @@
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/BGT7.jpg');   
+    background-size: repeat;
+    background-position: auto;
+    background-repeat: top left;
+}
+
+/* Introduction Section */
+.intro {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.circle.selected {
+    border-color: #007bff;
+    background-color: #007bff;
+}
+
+.circle.selected::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.label {
+    font-size: 16px;
+}
+
+.hidden-input {
+    display: none;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: inline-block; /* Allows width/height and margins */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Add some margin below */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,71 @@
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.front {
+    background: url('../images/Home.jpg') no-repeat center center/cover;
+    color: white;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.front h1 {
+    font-size: 48px;
+    margin-bottom: 1px;
+}
+
+.front p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.button2:hover {
+    background-color: #e68900;
+}
+
+.options {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff; /* Changed background color to white */
+}
+
+.options h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.options-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #25252510;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
