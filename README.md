@@ -3,8 +3,9 @@
 WellnessConnect is a web platform where **students** can:
 
 1. Sign up, log in, and book therapy slots with the therapist 
-2. Take different tests and view their results  
-3. See important announcements from the admin  
+2. Take different mental health tests and view their results  
+3. See important announcements from the admin
+4. Read different articles related to ones particular suffering
 
 **Therapist** can:
 
